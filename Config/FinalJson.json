@@ -1,0 +1,332 @@
+		{
+			"companyName": "Deloitte",
+			"JobURL": "https://jobs2.deloitte.com/us/en/c/information-technology-jobs",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["Analytics","Cloud","Cyber*","Digital","Software*","Program*","Risk*"],
+			"Headless Automation":"False",
+			"Selectors": [
+			{
+			  "Alerts":"null",
+				"Filter":"<html app='chrome.exe' /><webctrl tag='A' aria-label='Job category' />",
+				"Options":"<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' idx='1' tag='SPAN' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='H4' parentclass='au-target' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl tag='A' aria-label='Next' parentclass='pagination au-target' />"
+				
+			}
+			]
+			},
+			
+			{
+			"companyName": "Signature Consultants, LLC",
+			"JobURL": "https://jobs.sigconsult.com/en-US/search",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["*Information*"],
+			"Headless Automation":"False",
+			"Selectors": [
+			  { 
+			  "Alerts":"null",
+				"Filter":"null",
+				"Options":"<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' parentid='desktop_CATEGORY_facets' tag='A' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='job-result-table' tag='A' colName='*Job Title*' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl parentid='jrp-bottom-desktop-pagination' tag='A' class='next-page-caret' />"
+			}
+				]
+			},
+			{
+			"companyName": "Collabera",
+			"JobURL": "https://www.collabera.com/find-a-job/search-jobs/?sort_by=relevance&Posteddays=4000&domnnam=Banking,telecom&searchany=&anylocation=",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='srchpgbnnr' tag='A' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl aaname='Next Page ' tag='A' class='paging_button' />"
+				
+			}
+				]
+				},
+				{
+			"companyName": "Anthem Inc",
+			"JobURL": "https://anthemcareers.ttcportals.com/search/jobs",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["Information*"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' parentid='search-jobs' tag='SPAN' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='A' href='https://anthemcareers.ttcportals.com/jobs/*' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl aaname='next' tag='A' parentclass='pagination' />"
+			}
+				]
+				},
+				{
+			"companyName": "Walmart",
+			"JobURL": "https://careers.walmart.com/results?q=information%20technology&page=1&sort=rank&expand=department,brand,type,rate&jobCareerArea=all",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["Data*","Software*","Cyber*","Information*","Product*","Project*"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"<html app='chrome.exe' /><webctrl tag='H6' innertext='Technology' parentclass='filter__div-area' />",
+				"Options":"<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' tag='SPAN' parentclass='form-item__label' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='search-results' tag='A' class='job-listing__link' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl tag='BUTTON' aria-label='go to next page' class='search__results__pagination__arrow' />"
+			}
+				]
+				},
+				
+				{
+			"companyName": "McDonald",
+			"JobURL": "https://careers.mcdonalds.com/global-corporate/jobs?categories=Information%20Technology&page=1",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='job-title-link' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl parentid='all-content' tag='svg' class='mat-paginator-icon' idx='2' />"
+			}
+				]
+				},
+				{
+			"companyName": "Convenant Consulting",
+			"JobURL": "https://covenantconsulting.catsone.com/careers/6147-General",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["Information*"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"<html app='chrome.exe' /><webctrl aaname='Category ' tag='A' />",
+				"Options":"<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' tag='LABEL' class='form-check-label' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='root' tag='DIV' class='sc-fYxtnH ihRVsM col-12 col-md-4' parentclass='row' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"null"
+			}
+				]
+				},
+				
+				
+				{
+			"companyName": "MATRIX Resources",
+             "JobURL":"https://opportunities.matrixres.com/l/recruiting/jobsearchaction/e26838ab-5f45-11e3-a187-4040088b2296/ea4a1997-a115-11e8-a166-bc764e1156ea/false?measurementSystem=US&radiusSearch=False&distance=50&term=&locations=",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='body' tag='A' parentclass='job-title' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl aaname='Next ›' parentid='body' tag='A' />"
+			}
+				]
+				},
+				{
+			"companyName": "Pyramid Consulting",
+             "JobURL":"https://pyramidci.jobs.net/en-US/search?keywords=&categoryf=Information-Technology&facetcategory=information%20technology",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='job-result-table' tag='A' colName='*Job Title*' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl parentid='jrp-bottom-desktop-pagination' tag='A' class='next-page-caret' />"
+			}
+				]
+				},
+	
+				{
+			"companyName": "Southwest Search",
+             "JobURL":"https://www.southwestsearch.net/search-jobs/?JobCategory=Information-Technology",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='Content' tag='A' colName='Job Title' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"null"
+			}
+				]
+				},
+				{
+			"companyName": "3 Key Consulting",
+             "JobURL":"http://3kc.catsone.com/careers",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["Computer*","Information*"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"<html app='chrome.exe' /><webctrl aaname='Category ' tag='A' />",
+				"Options":"<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' tag='LABEL' class='form-check-label' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='root' tag='DIV' class='sc-fYxtnH ihRVsM col-12 col-md-4' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"null"
+			}
+				]
+				},
+				{
+			"companyName": "Compassion International",
+             "JobURL":"https://globalcareers-compassion.icims.com/jobs/search?ss=1&searchCategory=8730",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl tag='A' class='iCIMS_Anchor' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"null"
+			}
+				]
+				},
+				
+				{
+			"companyName": "MetTel",
+             "JobURL":"https://mettel.catsone.com/careers/",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='DIV' class='sc-fYxtnH ihRVsM col-12 col-md-4' parentclass='row' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"null"
+			}
+				]
+				},
+				{
+			"companyName": "Mercy",
+             "JobURL":"https://careers.mercy.net/c/information-technology-jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping":"False",
+			"Filter-Required":"False","Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='SPAN' parentclass='job-title' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl aaname='*Next*' aria-role='button' tag='A' class='au-target' />"
+			}
+				]
+				},
+				{
+			"companyName": "Siemens Healthineers",
+             "JobURL":"https://jobs.siemens-info.com/jobs?keywords=IT%20JOBS&location=United%20States&woe=12&brand=Siemens%20Healthineers&stretch=0&stretchUnit=MILES&page=1",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping":"False",
+			"Filter-Required":"False","Filter-Field":["*Engineering*","*Research*"],
+			"Headless Automation":"False",
+			"Selectors": [
+			{"Alerts":"null",
+				"Filter":"<html app='chrome.exe' /><webctrl parentid='mat-select-1' tag='SPAN' aaname='Job Family' />",
+				"Options":"<html app='chrome.exe' /><webctrl tag='SPAN' aaname='{{C_Item}}' class='mat-option-text' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='job-title-link' parentclass='job-title' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"null"
+			}
+			},
+			{
+			"companyName": "Thompson Technologies",
+			"JobURL": "https://thompsontechnologies.com/wp-content/plugins/bullhorn-oscp/#/",
+			"maxJobCount": "2",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False",
+			"Filter-Field":["Application*","Big*","CRM*","QA*","SAP*","Software*"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' tag='SPAN' parentclass='check-box-group' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='list-item' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"null"
+			}
+				]
+				},
+				{
+			"companyName": "Volt Workforce Solutions",
+             "JobURL":"https://jobs.volt.com/en-US/search?keywords=IT%20JOBS&location=USA&placeid=ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False","Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='job-result-table' tag='A' colName='*Job Title*' idx='1' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"<html app='chrome.exe' /><webctrl parentid='jrp-bottom-desktop-pagination' tag='A' class='next-page-caret' />"
+			}
+				]
+				},
+				{
+			"companyName": "Marchon Partners",
+             "JobURL":"https://careers.marchonpartners.com/jobs?page_size=10&page_number=1&sort_by=start_date&sort_order=DESC",
+			"maxJobCount": "1",
+			"Scraping Required": "False",
+			"Full Scraping":"False",
+			"Filter-Required":"False","Filter-Field":["null"],
+			"Headless Automation":"False",
+			"Selectors": [{"Alerts":"null",
+				"Filter":"null",
+				"Options":"null",
+				"JobLink": "<html app='chrome.exe' /><webctrl parentid='jobs-list' tag='A' class='item-title' idx='{{k}}' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"Pagination":"null"
+			}
+				]
+				},

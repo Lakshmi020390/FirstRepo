@@ -1,0 +1,56 @@
+{
+	"GoogleJson": [
+		{
+			"companyName": "Deloitte",
+			"JobURL": "https://jobs2.deloitte.com/us/en/c/information-technology-jobs",
+			"maxJobCount": "1",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"Analytics",
+				"Cloud",
+				"Cyber*",
+				"Digital",
+				"Software*",
+				"Program*",
+				"Risk*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "<html app='chrome.exe' /><webctrl tag='A' aria-label='Job category' />",
+					"Options": "<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' idx='1' tag='SPAN' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='H4' parentclass='au-target' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' aria-label='Next' parentclass='pagination au-target' />"
+				}
+			]
+		},
+		{
+			"companyName": "Signature Consultants, LLC",
+			"JobURL": "https://jobs.sigconsult.com/en-US/search",
+			"maxJobCount": "1",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Information*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' parentid='desktop_CATEGORY_facets' tag='A' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='job-result-table' tag='A' colName='*Job Title*' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl parentid='jrp-bottom-desktop-pagination' tag='A' class='next-page-caret' />"
+				}
+			]
+		}
+	]
+}

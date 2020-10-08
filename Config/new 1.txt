@@ -1,0 +1,1224 @@
+{
+"GoogleJson":[
+		
+		{
+			"companyName": "Packback",
+			"JobURL": "http://packbackinc.applytojob.com/",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='list-group-item-heading' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "Snowflake",
+			"JobURL": "https://careers.snowflake.com/us/en/search-results",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Engineering*",
+				"*IT*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl parentid='CategoryBody' tag='LABEL' innertext='{{C_Item}}' parentclass='phs-facet-results' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='View next page' class='au-target' />"
+				}
+			]
+		},
+		{
+			"companyName": "Graybar Electric",
+			"JobURL": "https://graybar.taleo.net/careersection/2/joblist.ftl",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='titlelink' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' innertext=' Next ' parentclass='pagerlink' />"
+				}
+			]
+		},
+		
+		{
+			"companyName": "AbbVie",
+			"JobURL": "https://careers.abbvie.com/abbvie/jobs?page=1&categories=Engineering%7CInformation%20Technology%7CQuality%20Assurance",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='job-title-link' parentclass='job-title' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='BUTTON' aria-label='Next Page of Job Search Results' parentclass='mat-paginator-range-actions' />"
+				}
+			]
+		},
+		
+		
+		{
+			"companyName": "Stryker",
+			"JobURL": "https://careers.stryker.com/en-US/search?facetcountry=us&facetcategory=engineering",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='TABLE' /><webctrl tag='TD' colName='*Job Title*' parentclass='job-result' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' class='next-page-caret' idx='2' />"
+				}
+			]
+		},
+		{
+			"companyName": "ITAC Solutions",
+			"JobURL": "https://itacsolutions.com/job-openings/?terms=&searchlocation=&category=970204",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='jlistings' tag='A' colName='Job Title' parentclass='table' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aaname='&gt;' tag='A' parentclass='pagination' />"
+				}
+			]
+		},
+		{
+			"companyName": "ALKU",
+			"JobURL": "https://www.alku.com/advancedsearch.aspx?search=1",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='resultsList' tag='A' parentclass='job-toplink' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' class='search-next-button' innertext='Next' />"
+				}
+			]
+		},
+		{
+			"companyName": "Baker Hughes",
+			"JobURL": "https://careers.bakerhughes.com/global/en/c/digital-technology-jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Engineering/Technology*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "",
+					"Options": "<html app='chrome.exe' /><webctrl parentid='FunctionBody' tag='LABEL' innertext='{{C_Item}}' parentclass='phs-facet-results' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='View next page' />"
+				}
+			]
+		},
+		{
+			"companyName": "Sevatec",
+			"JobURL": "https://careers-sevatec.icims.com/jobs/search?ss=1&hashed=-435618675",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl tag='A' parentclass='col-xs-12 title' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx = '2'/>",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl aaname='*Next page of results*' tag='A' />"
+				}
+			]
+		},
+		{
+			"companyName": "PVH",
+			"JobURL": "https://careers.pvh.com/corporate/global/en/c/other-jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"United States of America"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "<html app='chrome.exe' /><webctrl tag='BUTTON' aria-label='Location' class='facet-menu au-target' />",
+					"Options": "<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' tag='SPAN' class='result-text' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='1' />"
+				}
+			]
+		},
+		{
+			"companyName": "addisongroup",
+			"JobURL": "https://addisongroup.com/job-seekers/find-jobs/?service_areas=IT",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "",
+					"Options": "",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='main' tag='A' parentclass='appList__jobs' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl parentid='main' tag='LABEL' class='nextBtn' parentclass='paginationBtn' />"
+				}
+			]
+		},
+		{
+			"companyName": "Adecco",
+			"JobURL": "https://www.adeccousa.com/jobs/job-search/cat-engineering/",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl aaname='See job description*' tag='A' class='btn btn-sm btn-success pull-right' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='2' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' parentclass='pagination' parentid='ulpagination' />"
+				}
+			]
+		},
+		{
+			"companyName": "Aerotek",
+			"JobURL": "https://aerotek.com/en/career-opportunities/engineering-jobs/software-developer-jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='main-content' tag='A' class='score-composite-link' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "McDonald's",
+			"JobURL": "https://careers.mcdonalds.com/global-corporate/jobs?keywords=&categories=Analyst%7CDesign%7CInformation%20Technology&page=1",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='job-title-link' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='BUTTON' type='button' aria-label='Next Page of Job Search Results' />"
+				}
+			]
+		},
+		{
+			"companyName": "Universal Health Services",
+			"JobURL": "https://jobs.uhsinc.com/corporate/jobs?categories=Corporate%7CInformation%20Technology&page=1",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='job-title-link' parentclass='job-title' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='BUTTON' type='button' aria-label='Next Page of Job Search Results' />"
+				}
+			]
+		},
+		{
+			"companyName": "Land O'Lakes",
+			"JobURL": "https://careers.landolakesinc.com/us/en/search-results",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*IT*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl aaname='IT' parentid='JobCategoryBody' tag='SPAN' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		
+		{
+			"companyName": "Danaher",
+			"JobURL": "https://jobs.danaher.com/global/en/search-results?s=1",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Continuous Improvement*",
+				"*Project*",
+				"*STEM*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl parentid='JobCategoryBody' tag='LABEL' innertext='' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='View next page' />"
+				}
+			]
+		},
+		{
+			"companyName": "Emerson Electric",
+			"JobURL": "https://emerson.taleo.net/careersection/ex/jobsearch.ftl?",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' title='Careers at Emerson' /><webctrl tag='A' parentclass='titlelink' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' aaname=' Next ' parentclass='pagerlink' />"
+				}
+			]
+		},
+		{
+			"companyName": "Kraft Heinz",
+			"JobURL": "https://kraftheinz.avature.net/careers/SearchJobs/?listFilterMode=1&256=549&256_format=890&244=%5B134390%2C134396%5D&244_format=880&pipelineRecordsPerPage=20&",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='main' tag='A' href='https://kraftheinz.avature.net/careers/PipelineDetail*' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+			{
+			"companyName": "FGP",
+			"JobURL": "https://www.fgp.com/jobs?search=&industry=technology&zip=",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='entry__link' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='2' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "edX",
+			"JobURL": "https://www.edx.org/careers",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='job-link' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "Optimus Ride",
+			"JobURL": "https://jobs.lever.co/optimusride?team=Engineering%20-%20Product%20Development",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='posting-title' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "Fortive",
+			"JobURL": "https://careers.fortive.com/c/information-technology-jobs",
+			"maxJobCount": "1",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		
+		{
+			"companyName": "InCadence Strategic Solutions",
+			"JobURL": "http://careers.incadencecorp.com/",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl href='/careers/*' parentid='root' tag='A' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "SNI Technology",
+			"JobURL": "https://careers.snitechnology.com/en-US/search?keywords=&location=&facetcategory=information%20technology",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='job-result-table' tag='A' colName='*Job Title*' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aaname='&gt;' parentid='jrp-bottom-desktop-pagination' tag='A' class='next-page-caret' />"
+				}
+			]
+		},
+		{
+			"companyName": "CarMax",
+			"JobURL": "https://careers.carmax.com/us/en/search-results?keywords=",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Technology*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "<html app='chrome.exe' /><webctrl tag='BUTTON' aria-label='Job Category' parentclass='panel-title' />",
+					"Options": "<html app='chrome.exe' /><webctrl parentid='JobCategoryBody' tag='LABEL' innertext='{{C_Item}}' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' aria-label='View next page' class='next-btn au-target' />"
+				}
+			]
+		},
+		{
+			"companyName": "CDW",
+			"JobURL": "https://www.cdwjobs.com/search/jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*IT*",
+				"Delivery*",
+				"Engineering*",
+				"Solution*",
+				"Project*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' tag='SPAN' class='facet-item__option-item-label' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='search-results' tag='A' parentclass='*search-results__item-title' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aaname='next' parentid='search-results' tag='A' idx='2' />"
+				}
+			]
+		},
+		{
+			"companyName": "Connexion",
+			"JobURL": "https://www.csetalent.com/search-jobs/?Category=IT+and+SW",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl aaname='View Details' tag='A' class='button viewdetailsbtn' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='2' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "General Motors",
+			"JobURL": "https://search-careers.gm.com/c/information-technology-jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Engineering*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl parentid='CategoryBody' tag='LABEL' innertext='{{C_Item}}' class='phs-checkbox input-check-group' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='View next page' />"
+				}
+			]
+		},
+		{
+			"companyName": "AllState",
+			"JobURL": "https://www.allstate.jobs/job-search-results/?category=Information%20Technology",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='jobTitle' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='2' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='Go to the next page of results.' />"
+				}
+			]
+		},
+		{
+			"companyName": "Icertis",
+			"JobURL": "https://jobs.lever.co/icertis",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"Bellevue*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "<html app='chrome.exe' /><webctrl aaname='Location' tag='DIV' class='filter-button' />",
+					"Options": "<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' tag='A' class='category-link' parentclass='filter-popup' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='posting-title' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "National Grid USA",
+			"JobURL": "https://careers.nationalgridus.com/search-jobs/graduates%20development%20program/793/1/1",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"Cyber*",
+				"Data Analysis*",
+				"Data Analyst*",
+				"Information*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl parentid='search-filters' tag='LABEL' innertext='{{C_Item}}' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='search-results-list' tag='A' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "Merck",
+			"JobURL": "https://jobs.merck.com/us/en/search-results",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Engineering*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "<html app='chrome.exe' /><webctrl id='CategoryAccordion' tag='BUTTON' aaname=' Category  ' />",
+					"Options": "<html app='chrome.exe' /><webctrl parentid='CategoryBody' tag='LABEL' innertext='{{C_Item}}' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='View next page' />"
+				}
+			]
+		},
+		
+		{
+			"companyName": "Elite Technical",
+			"JobURL": "http://www.elitetechnicaljobs.com/",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='jobbox' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "JAMF",
+			"JobURL": "https://www.jamf.com/jobs/",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe'/><webctrl href='details.aspx?*' parentid='items' tag='A' parentname='aspnetForm' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "TRS Staffing",
+			"JobURL": "https://www.trsstaffing.com/jobs?options=20865,20847,30442,30447,30464&page=1&q=IT#",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Engineering*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='job-block__title-link' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": ""
+				}
+			]
+		},
+		
+		{
+			"companyName": "TD Bank",
+			"JobURL": "https://jobs.td.com/en/job-search-results/?addtnl_categories=Technology%20Solutions&primary_country=US",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='jobTitle' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='2' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='Go to the next page of results.' />"
+				}
+			]
+		},
+		{
+			"companyName": "DaVita",
+			"JobURL": "https://careers.davita.com/c/corporate-jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='information au-target' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' aria-label='Next' class='au-target' />"
+				}
+			]
+		},
+		{
+			"companyName": "first american",
+			"JobURL": "https://careers.firstam.com/job-search-results/?category=Information%20Technology&location=USA&country=US&radius=25",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='jobTitle' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='2' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='Go to the next page of results.' />"
+				}
+			]
+		},
+		
+		{
+			"companyName": "Ecco Select",
+			"JobURL": "https://www.eccoselect.com/careers-search/",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' class='iframe-class' /><webctrl tag='NOVO-LIST-ITEM' parentclass='job-card' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		
+		{
+			"companyName": "Costco",
+			"JobURL": "https://phf.tbe.taleo.net/phf02/ats/careers/v2/searchResults?org=COSTCO&cws=41",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='oracletaleocwsv2-head-title' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "CSI Tech",
+			"JobURL": "https://thecsicompanies.com/jobs/?matador-categories=tech",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Information*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' parentid='Content' tag='A' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl aaname='Apply Now' tag='A' parentclass='matador-job-navigation' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aaname='Next »' tag='A' class='next page-numbers' />"
+				}
+			]
+		},
+		
+		{
+			"companyName": "Job Juncture",
+			"JobURL": "https://www.jobjuncture.com/jobs?category=20&distance=500",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='result' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aaname='Next' tag='A' class='btn next' />"
+				}
+			]
+		},
+		{
+			"companyName": "StateFarm",
+			"JobURL": "https://findjobs.statefarm.com/Listjobs/All/search/SF-Function_Category/Technology%20and%20UX",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				""
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' colName='Job Title' parentclass='JobTitle-cell' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aaname='arrow-e' tag='A' class='k-link k-pager-nav' />"
+				}
+			]
+		},
+		{
+			"companyName": "Activision Blizzard",
+			"JobURL": "https://careers.activisionblizzard.com/search-results",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*PROGRAMMING*",
+				"*INFORMATION*",
+				"*DATA*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "<html app='chrome.exe' /><webctrl aaname='*Category*' tag='BUTTON' parentclass='panel-title' />",
+					"Options": "<html app='chrome.exe' /><webctrl tag='LABEL' class='phs-checkbox input-check-group' innertext='{{C_Item}}' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' aria-label='View next page' class='au-target' />"
+				}
+			]
+		},
+		{
+			"companyName": "Sterling",
+			"JobURL": "https://www.sterling-engineering.com/find-a-job/",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"DATABASE*",
+				"JAVA*",
+				"NETWORK*",
+				"OTHER*",
+				"PROGRAM*",
+				"PROJECT*",
+				"QUALITY E*",
+				"SOFTWARE E*",
+				"SOFTWARE Q*",
+				"SYSTEM*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' parentid='job-category' tag='LABEL' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='job-link' parentclass='single-position--title' idx='1' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='4' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "Telnyx",
+			"JobURL": "https://boards.greenhouse.io/telnyx54",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [""],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' parentclass='opening' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "null"
+				}
+			]
+		},
+		{
+			"companyName": "ADM",
+			"JobURL": "https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25416&siteid=5998#keyWordSearch=",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"*Information*"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "<html app='chrome.exe' /><webctrl tag='BUTTON' aaname='Search' class='primaryButton ladda-button ng-binding' />",
+					"Filter": "<html app='chrome.exe' /><webctrl aaname='*Department/Function*' tag='A' class='chevron-down' />",
+					"Options": "<html app='chrome.exe' /><webctrl tag='LABEL' aaname='{{C_Item}}' class='ng-binding' parentid='content' /><nav up='1' /><webctrl parentid='content' tag='INPUT' type='checkbox' />",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='jobProperty jobtitle' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='A' aaname='Next*' class='showMoreJobs UnderLineLink ng-binding' />"
+				}
+			]
+		},
+		{
+			"companyName": "Exelon",
+			"JobURL": "https://jobs.exeloncorp.com/search/information-technology-staff/jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": ["null"],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl parentid='the-results' tag='A' parentclass='col-lg-6 col-sm-12' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aaname='next' parentid='the-results' tag='A' />"
+				}
+			]
+		},
+		{
+			"companyName": "Dollar Tree",
+			"JobURL": "https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25600&siteid=5258#keyWordSearch=Manager&locationSearch=",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"null"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "<html app='chrome.exe'/><webctrl tag='BUTTON' aaname='Search' class='primaryButton ladda-button ng-binding' />",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' title='Job Search Welcome' /><webctrl tag='A' class='jobProperty jobtitle' parentclass='ng-scope' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx = '1'/>",
+					"Pagination":"<html app='chrome.exe' title='Job Search' /><webctrl tag='A' aaname='Next*' class='showMoreJobs UnderLineLink ng-binding' />"
+				}
+			]
+		},
+		{
+			"companyName": "Altria Group",
+			"JobURL": "https://careershub-altria.icims.com/jobs/search?ss=1&searchRelation=keyword_all&mobile=false&width=1147&height=500&bga=true&needsRedirect=false&jan1offset=330&jun1offset=330",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": ["null"],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' id='icims_content_iframe' /><webctrl tag='A' class='iCIMS_Anchor' parentclass='col-xs-12 title' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl aaname='*Next page of results  ' tag='A' class='glyph ' />"
+				}
+			]
+		},
+		{
+			"companyName": "Medix",
+			"JobURL": "https://careers.medixteam.com/c/information-technology-jobs",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": ["null"],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aria-role='button' tag='A' aria-label='View next page' />"
+				}
+			]
+		}
+	]
+}

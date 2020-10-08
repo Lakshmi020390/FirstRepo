@@ -1,0 +1,3 @@
+[0924/100838.466:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
+[0930/111247.928:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0930/111633.362:ERROR:crash_report_database_win.cc(469)] failed to stat report
