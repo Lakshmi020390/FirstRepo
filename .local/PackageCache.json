@@ -9,7 +9,7 @@
         "C:\\Users\\AG300617-8\\.nuget\\packages\\selenium.support/3.141.0\\lib/net45/WebDriver.Support.dll",
         "C:\\Users\\AG300617-8\\.nuget\\packages\\selenium.webdriver/3.141.0\\lib/net45/WebDriver.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\selenium.support\\3.141.0"
+      "Path": null
     },
     {
       "Package": {
@@ -19,7 +19,7 @@
       "Assemblies": [
         "C:\\Users\\AG300617-8\\.nuget\\packages\\selenium.webdriver/3.141.0\\lib/net45/WebDriver.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\selenium.webdriver\\3.141.0"
+      "Path": null
     },
     {
       "Package": {
@@ -40,7 +40,7 @@
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.excel.activities/2.9.0-preview\\lib/net461/UiPath.Excel.Activities.dll",
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.excel.activities/2.9.0-preview\\lib/net461/UiPath.Excel.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.excel.activities\\2.9.0-preview"
+      "Path": null
     },
     {
       "Package": {
@@ -60,7 +60,7 @@
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.mail.activities/1.9.0-preview\\lib/net461/UiPath.Mail.Activities.dll",
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.mail.activities/1.9.0-preview\\lib/net461/UiPath.Mail.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.mail.activities\\1.9.0-preview"
+      "Path": null
     },
     {
       "Package": {
@@ -79,7 +79,7 @@
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.35.dll",
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.36.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.python.activities\\1.1.6863.33404"
+      "Path": null
     },
     {
       "Package": {
@@ -105,7 +105,7 @@
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.system.activities/20.6.1-preview\\lib/net461/UiPath.System.Activities.Design.dll",
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.system.activities/20.6.1-preview\\lib/net461/UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.system.activities\\20.6.1-preview"
+      "Path": null
     },
     {
       "Package": {
@@ -154,7 +154,7 @@
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.vision/2.1.0-preview\\lib/net461/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.vision/2.1.0-preview\\lib/net461/UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.uiautomation.activities\\20.6.0-preview"
+      "Path": null
     },
     {
       "Package": {
@@ -169,7 +169,7 @@
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.webapi.activities/1.5.0-preview\\lib/net452/UiPath.Web.Activities.dll",
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.webapi.activities/1.5.0-preview\\lib/net452/UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\uipath.webapi.activities\\1.5.0-preview"
+      "Path": null
     },
     {
       "Package": {
@@ -182,7 +182,7 @@
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipathteam.jsonutilities.activities/0.5.5\\lib/net461/UiPathTeam.JSONUtilities.Activities.dll",
         "C:\\Users\\AG300617-8\\.nuget\\packages\\uipathteam.jsonutilities.activities/0.5.5\\lib/net461/UiPathTeam.JSONUtilities.dll"
       ],
-      "Path": "C:\\Users\\AG300617-8\\.nuget\\packages\\uipathteam.jsonutilities.activities\\0.5.5"
+      "Path": null
     }
   ],
   "Conflicts": [],

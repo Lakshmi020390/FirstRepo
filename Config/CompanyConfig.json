@@ -13,7 +13,7 @@
 			"Selectors": [{"Alerts":"null",
 				"Filter":"<html app='chrome.exe' /><webctrl tag='A' aria-label='Job category' />",
 				"Options":"<html app='chrome.exe' /><webctrl aaname='{{C_Item}}' idx='1' tag='SPAN' />",
-				"JobLink": "<html app='chrome.exe' /><webctrl tag='H4' parentclass='au-target' idx='{{k}}' />",
+				"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='au-target' parentclass='information' idx='1' />",
 				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
 				"Pagination":"<html app='chrome.exe' /><webctrl tag='A' aria-label='Next' parentclass='pagination au-target' />"
 				
@@ -218,7 +218,7 @@
 				"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl src='https://host.pcrecruiter.net/pcrbin/jobboard.aspx?uid=Blue%20Sig*' tag='IFRAME' /><webctrl tag='TABLE' /><webctrl tag='TD' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl src='https://host.pcrecruiter.net/pcrbin/jobboard.aspx?uid=Blue%20Sig*' tag='IFRAME' /><webctrl tag='SCRIPT' type='application/ld+json' />",
 				"Pagination":"<html app='chrome.exe' title='Jobs - Blue Signal Search' /><webctrl tag='IFRAME' idx='1' /><webctrl id='nextButton' tag='A' />"
 			}
 				]
@@ -236,7 +236,7 @@
 				"Filter":"null",
 				"Options":"<html app='chrome.exe' /><webctrl tag='IFRAME' class='iframe-class' /><webctrl aaname='{{C_Item}}' tag='SPAN' parentclass='check-box-group' />",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' class='iframe-class' /><webctrl tag='A' parentclass='list-item' title='Brightwing - Careers' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' class='iframe-class' /><webctrl tag='script' type='application/ld+json' idx='1' />",
 				"Pagination":"null"
 			}
 				]
@@ -263,7 +263,7 @@
 			"companyName": "Talener",
 			"JobURL": "https://www.talener.com/candidates/job-listings/",
 			"maxJobCount": "1",
-			"Scraping Required": "False",
+			"Scraping Required": "Empty",
 			"Full Scraping":"False",
 			"Filter-Required":"False","Filter-Field":["null"],
 			"Headless Automation":"False",
@@ -381,7 +381,7 @@
 				"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='H3' parentclass='position' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='DIV' id='boxed-wrapper' /><webctrl tag='SCRIPT' type='application/ld+json' />",
 				"Pagination":"null"
 			}
 				]
@@ -417,7 +417,7 @@
 				"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' parentclass='jv-careersite' /><webctrl tag='A' parentclass='jv-job-list-name' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"JsonPath":"<html app='chrome.exe' /><<webctrl id='jv_careersite_iframe_id' tag='IFRAME' /><webctrl tag='SCRIPT' type='application/ld+json' />",
 				"Pagination":"null"
 			}
 				]
@@ -508,7 +508,7 @@
 				"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' parentclass='intro-section' /><webctrl parentid='resulttable' tag='A' class='joblink' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' parentclass='intro-section' /><webctrl tag='script' type='application/ld+json'/>",
 				"Pagination":"<html app='chrome.exe' /><webctrl tag='IFRAME' parentclass='intro-section' /><webctrl aaname='Next' parentid='pager_container' tag='A' />"
 			}
 				]
@@ -1006,7 +1006,7 @@
 				"Filter":"null",
 				"Options":"<html app='chrome.exe' /><webctrl tag='IFRAME' class='iframe-class' /><webctrl aaname='{{C_Item}}' tag='SPAN' />",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' class='iframe-class' /><webctrl tag='A' parentclass='list-item' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' class='iframe-class' /><webctrl tag='script' type='application/ld+json'/>",
 				"Pagination":"null"
 			}
 				]
@@ -2257,7 +2257,7 @@
 				},
 				{
 			"companyName": "Verizon",
-             "JobURL":"https://www.verizon.com/about/work/search/technology/jobs/in/country/united-states?ns_dist=100&q=IT+JOBS&v_location=UNITED+STATES&v_m=false",
+             "JobURL":"https://www.verizon.com/about/work/search/technology/jobs?cleared=1&sort_by=cfml10%2Cdesc",
 			"maxJobCount": "2",
 			"Scraping Required": "False",
 			"Full Scraping":"False",
@@ -3262,6 +3262,7 @@
 				]
 				},
 				{
+				"companyName":"Eagle Genomics"
              "JobURL":"https://apply.workable.com/eaglegenomics/",
 			"maxJobCount": "2",
 			"Scraping Required": "True",
@@ -3315,7 +3316,7 @@
       			"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl tag='A' parentclass='col-xs-12 title' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx = '2'/>",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl tag='script' type='application/ld+json'/>",
 				"Pagination":"<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl aaname='*Next page of results*' tag='A' />"
 			}
 				]
@@ -3355,7 +3356,7 @@
       			"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl tag='A' parentclass='col-xs-12 title' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx = '1'/>",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl tag='script' type='application/ld+json' idx = '1'/>",
 				"Pagination":"<html app='chrome.exe' /><webctrl tag='IFRAME' name='icims_content_iframe' /><webctrl aaname='*Next page of results*' tag='A' />"
 			}
 				]
@@ -3975,7 +3976,7 @@
       			"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' idx='1' /><webctrl parentid='wrapper' tag='A' parentclass='opening' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx = '3'/>",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' idx='1' /><webctrl tag='script' type='application/ld+json' idx = '3'/>",
 				"Pagination":"null"
 			}
 				]
@@ -4215,7 +4216,7 @@
       			"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='IFRAME' idx='1' /><webctrl tag='SPAN' parentclass='job-item-job-title has-data' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx = '1'/>",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' idx='1' /><webctrl tag='script' type='application/ld+json' idx = '1'/>",
 				"Pagination":"null"
 			}
 				]
@@ -4375,7 +4376,7 @@
 				"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='list-item' parentclass='job-list is-visible' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='3' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' id='grnhse_iframe' /><webctrl tag='SCRIPT' type='application/ld+json' />",
 				"Pagination":"null"
 			}
 				]
@@ -4395,7 +4396,7 @@
 				"Filter":"null",
 				"Options":"null",
 				"JobLink": "<html app='chrome.exe' /><webctrl tag='A' class='opening__url' href='/careers/*' parentclass='js-departments' idx='{{k}}' />",
-				"JsonPath":"<html app='chrome.exe' /><webctrl tag='script' type='application/ld+json' idx='2' />",
+				"JsonPath":"<html app='chrome.exe' /><webctrl tag='IFRAME' id='grnhse_iframe' /><webctrl tag='SCRIPT' type='application/ld+json' />",
 				"Pagination":"null"
 			}
 				]
@@ -4422,7 +4423,7 @@
 				},
 				{
 			"companyName": "Robinhood",
-             "JobURL":"https://careers.robinhood.com/",
+             "JobURL":"https://careers.robinhood.com/openings",
 			"maxJobCount": "2",
 			"Scraping Required": "New Page",
 			"Full Scraping":"False",

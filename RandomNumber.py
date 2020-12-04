@@ -1,6 +1,6 @@
 import random
-def random_function():
-    n = random.randint(1,5)
+def random_function(min,max):
+    n = random.randint(min,max)
     print (n)
     return(n)
-random_function()
+random_function(1,5)

@@ -1,7 +1,7 @@
 {
   "name": "GoogleJsonExtraction",
   "description": "TestingPurpose",
-  "main": "Scraping With JSON.xaml",
+  "main": "URLDB.xaml",
   "dependencies": {
     "Selenium.Support": "[3.141.0]",
     "Selenium.WebDriver": "[3.141.0]",
@@ -17,7 +17,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.6.0.0",
-  "projectVersion": "1.0.1-Final",
+  "projectVersion": "1.0.1-Test.1",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -27,7 +27,9 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -36,30 +38,34 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfoCollection": []
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
   },
-  "arguments": {
-    "input": [
-      {
-        "name": "OutputFilePath",
-        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-        "required": false,
-        "hasDefault": true
-      },
-      {
-        "name": "ConfigPath",
-        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-        "required": false,
-        "hasDefault": true
-      },
-      {
-        "name": "PythonExe",
-        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-        "required": false,
-        "hasDefault": true
-      }
-    ],
-    "output": []
-  },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "URLDB.xaml",
+      "uniqueId": "d2dc3f71-f1fe-4760-9e82-0c9a3d476ee4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Scraping With JSON.xaml",
+      "uniqueId": "5bce781f-ef77-4f13-a0e7-ea5fb8c6bade",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "PaginationTestCheck.xaml",
+      "uniqueId": "69f0b498-d979-4f24-88d3-c58714989761",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
 }

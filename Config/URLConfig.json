@@ -1,0 +1,30 @@
+{
+	"GoogleJson": [
+			{
+			"companyName": "The Judge Group",
+			"JobURL": "https://www.judge.com/jobs/search?keyword=developer&location=&typerange=25&jobtype=Any&category%5B%5D=InformationTechnology",
+			"maxJobCount": "2",
+			"Scraping Required": "True",
+			"Full Scraping": "False",
+			"Filter-Required": "False",
+			"Filter-Field": [
+				"null"
+			],
+			"Headless Automation": "False",
+			"Attributes": "innerText",
+			"JobLink-Attributes": "href",
+			"Job-Page": "Same",
+			"Selectors": [
+				{
+					"Alerts": "null",
+					"JobPage": "null",
+					"Filter": "null",
+					"Options": "null",
+					"JobLink": "<html app='chrome.exe' title='Jobs Search,Find Jobs in United States,Job Vacancy in USA' idx = '*' /><webctrl parentid='jobresponse' tag='A' aaname='View*' class='btn' idx='{{k}}' />",
+					"JsonPath": "<html app='chrome.exe' title='*The Judge Group'  idx = '*' /><webctrl tag='script' type='application/ld+json' idx='1' />",
+					"Pagination": "<html app='chrome.exe' /><webctrl aaname='Next' tag='A' class='page-link' />"
+				}
+			]
+		}
+		]
+}
